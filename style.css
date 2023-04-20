@@ -32,6 +32,8 @@ html,body{
     background-color: green;
 }
 canvas{
+    position: relative;
+    z-index: 9;
     max-height: 100vh;
     max-width: 100vw;
 }
