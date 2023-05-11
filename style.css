@@ -12,6 +12,7 @@ html,body{
     overflow: hidden;
 }
 #page{
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #000;
@@ -36,4 +37,20 @@ canvas{
     z-index: 9;
     max-height: 100vh;
     max-width: 100vw;
+}
+#loop{
+    position: absolute;
+    top: 30%;
+    height: 25%;
+    width: 100%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family:gilroy;
+    font-weight:400;
+
+    background-color: red;
+}
+#loop h1{
+    font-weight:400;
+
 }
